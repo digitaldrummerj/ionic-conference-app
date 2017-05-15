@@ -36,3 +36,7 @@ bin/
 bld
 **/*.suo
 **/*.user
+**/*.js.map
+**/app/*.js
+**/pages/**/*.js
+**/providers/**/*.js
