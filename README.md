@@ -19,10 +19,23 @@ This is purely a demo of Ionic with TypeScript. It is still in development.
 
 * Clone this repository: `git clone https://github.com/driftyco/ionic-conference-app.git`.
 * Want to use TypeScript? Both the `master` branch and the `typescript` branch now use TypeScript.
-* Run `npm install` from the project root.
+
+If you are not using Visual Studio Tools for Apache Cordova (TACO)
+
+* Run `npm install` from the project root
 * Install the ionic CLI (`npm install -g ionic`)
 * Run `ionic serve` in a terminal from the project root.
 * Profit
+
+If you are using Visual Studio Tools for Apache Cordova (TACO)
+
+* Open the ionic-conference-app.sln
+* Upon loading into Visual Studio, the npm dependencies will be installed
+* Select one of the "Simulate in Browser.." options
+* Click on the "Simulate in Browser.." option or Press F5 to debug  
+
+>Note: You do not need to manually install Node, NPM, Java, Android SDK, Ionic or Cordova on your machine for TACO to work.  TACO will install all of the dependencies for you.
+
 
 **Note:** Is your build slow? Update `npm` to 3.x: `npm install -g npm`.
 
