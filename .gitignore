@@ -40,3 +40,4 @@ bld
 **/app/*.js
 **/pages/**/*.js
 **/providers/**/*.js
+build.json
